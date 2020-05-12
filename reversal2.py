@@ -6,7 +6,7 @@ print(new_string)
 x = new_string.split()
 print(x)
 
-reversed = ''.join(reversed(x))
+reversed = ' '.join(reversed(x))
 print(reversed)
 
 
