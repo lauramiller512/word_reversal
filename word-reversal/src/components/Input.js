@@ -30,6 +30,7 @@ class Input extends React.Component {
                             onChange={this.taskDescriptionChanged}
                         />
                         <div className="input-group-append">
+                            {/* Need to fix so button calls the event */}
                             <button className="btn addButton btn-outline-primary" type="button" onClick={this.onClick.bind(this)}>
                                 Submit
                             </button>
