@@ -1,3 +1,5 @@
+print("This function will reverse all the letters within the string while keeping the words in their origin place")
+
 string = input("Enter text to be reversed: " )
 
 new_string = (string[::-1]) # reverses the entire string
