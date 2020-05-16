@@ -12,6 +12,5 @@
 
 user_input = input("Enter text to be reversed: ")
 
-new_string = " ".join(word[::-1] for word in user_input.split())
 
 print(new_string)

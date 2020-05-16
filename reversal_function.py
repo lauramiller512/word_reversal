@@ -1,11 +1,12 @@
-string = input("Enter text to be reversed: " )
-
-print (string)
-
 def reverse_words(string):
-    string = "".join(reversed(string))
-    x = string.split()
+    # words = string.split()
+    # string = "".join(reversed(string))
     # string = (reversed(x)) 
-    return (string) 
+    # return (string) 
 
-print (string)
+    new_string = " ".join("".join(reversed(word)) for word in string.split())
+    return (new_string)
+
+n = input("Enter text to be reversed: " )
+
+print (reverse_words(n))
