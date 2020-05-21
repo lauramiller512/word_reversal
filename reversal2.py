@@ -1,3 +1,5 @@
+# this file is for testing ways of reversing and splitting strings
+
 # ::-1 reverses all items in the array
 # a[start:stop] slice notation: first number is where to start in array
 # second number is where it stops
